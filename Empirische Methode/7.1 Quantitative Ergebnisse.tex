@@ -1,0 +1,43 @@
+\subsection{Quantitative Ergebnisse}
+
+Die statistische Vorraussetzung des abhängigen t-Tests, die Normalverteilung der Differenzen, wurde jeweils mithilfe eines Shapiro-Wilk Tests auf Normalverteilung mit einem Signifikanzniveau von $\alpha$~=~.05 überprüft. Dieser Test wurde gewählt, da er für kleinere Stichproben nach \cite{power} im Vergleich mit ähnlichen Tests (wie dem Kolmogorov-Smirnov Test) bei einer Monte-Carlo Simulation die beste Teststärke aufweisen konnte.
+
+Wenn der Shapiro-Wilk Test auf Normalverteilung nicht signifikant wurde (und der Datensatz damit als normalverteilt angesehen werden konnte), dann wurde im Anschluss ein abhängiger t-Test gerechnet. Andernfalls wurde ein Wilcoxon Rangsummentest gerechnet, der die Annahme der Normalverteilung nicht vorraussetzt. 
+
+Da mehrere Tests an der gleichen Stichprobe zu rechnen waren, sollte Alpha-Adjustierung, z.B. nach Bonferroni-Holm, angewandt werden. Da keiner der Tests selbst auf dem Standardsignifikanzniveau von .05 signifikant wurde, ist dies jedoch nicht relevant.
+
+Obwohl zwei Variablen nicht als normalverteilt angenommen werden können wird stets Mittelwert und Standardabweichung angegeben (anstatt Median und Interquartilsabstand), da für alle Variablen Intervallskaliertheit angenommen wird.\\
+
+
+
+
+
+\subsubsection{Effektivität}
+Ein Shapiro-Wilk Test zeigte, dass die Differenzen der Anzahl der gelösten Teilaufgaben nicht normalverteilt sind, \textit{W}(27)~=~.918, \textit{p}~<~.05.
+Ein Wilcoxon Rangsummentest betreffend der durchschnittlichen Anzahl gelöster Teilaufgaben lieferte keinen signifikanten Unterschied zwischen Trello (\textit{MW}~=~11.714, \textit{SD}~=~2.594) und Zenkit (\textit{MW}~=~11.357, \textit{SD}~=~2.725), \textit{z}~=~1.4, \textit{p}~=~.081, \textit{r}~=~.265.
+
+Ein Shapiro-Wilk Test zeigte, dass die Differenzen der Anzahl der Zeitüberschreitungen nicht normalverteilt sind, \textit{W}(27)~=~.887, \textit{p}~<~.01.
+Ein Wilcoxon Rangsummentest betreffend der durchschnittlichen Anzahl der Zeitüberschreitungen lieferte keinen signifikanten Unterschied zwischen Trello (\textit{MW}~=~.464, \textit{SD}~=~.576) und Zenkit (\textit{MW}~=~.536, \textit{SD}~=~.693), \textit{z}~=~-.39, \textit{p}~=~.349, \textit{r}~=~.074.
+
+
+
+
+\subsubsection{Effizienz}
+Ein Shapiro-Wilk Test zeigte, dass die Differenzen der Zeiten normalverteilt sind, \textit{W}(27)~=~.983, \textit{p}~=~.922. 
+Ein t-Test für abhängige Stichproben betreffend der durchschnittlich benötigten Zeit zur Lösung einer Aufgabe in Sekunden lieferte keinen signifikanten Unterschied zwischen Trello (\textit{MW}~=~73.964, \textit{SD}~=~21.555) und Zenkit (\textit{MW}~=~78.857, \textit{SD}~=~20.348),\\\textit{t}(27)~=~-~1.166, \textit{p}~=~.127, \textit{d}~=~.220.
+
+Ein Shapiro-Wilk Test zeigte, dass die Differenzen der Anstrengungswerte des NASA TLX normalverteilt sind, \textit{W}(27)~=~.944, \textit{p}~=~.141. 
+Ein t-Test für abhängige Stichproben betreffend der NASA TLX Werte lieferte keinen signifikanten Unterschied zwischen Trello (\textit{MW}~=~6.786, \textit{SD}~=~4.122) und Zenkit (\textit{MW}~=~8.250, \textit{SD}~=~4.088), \textit{t}(27)~=~-~1.662, \textit{p}~=~.054, \textit{d}~=~.314.
+
+
+
+
+\subsubsection{Zufriedenheit}   
+Ein Shapiro-Wilk Test zeigte, dass die Differenzen der UX-Werte normalverteilt sind, \textit{W}(25)~=~.968, \textit{p}~=~.577. 
+Ein t-Test für abhängige Stichproben betreffend der durchschnittlichen UX-Werte lieferte keinen signifikanten Unterschied zwischen Trello (\textit{MW}~=~.327, \textit{SD}~=~.649) und Zenkit (\textit{MW}~=~.089, \textit{SD}~=~.661), \textit{t}(25)~=~1.385,
+ \textit{p}~=~.089, \textit{d}~=~.272.
+
+Bei der Auswertung des UX-Wertes kam es zum Wegfall zweier Probanden, da diese weder positive noch negative Marker gesetzt hatten. Da hierbei möglicherweise die Aufgabenstellung missverstanden wurde und kein UX-Wert errechnet werden konnte, wurden diese Datenpunkte als ungültig angesehen und ausgeschlossen.
+
+Ein Shapiro-Wilk Test zeigte, dass die Differenzen der Attraktivitätswerte des AttrakDiff nicht normalverteilt sind, \textit{W}(27)~=~.810, \textit{p}~<~.001.
+Ein Wilcoxon Rangsummentest betreffend der Attraktivitätswerte lieferte keinen signifikanten Unterschied zwischen Trello (\textit{MW}~=~3.529, \textit{SD}~=~.878) und Zenkit (\textit{MW}~=~3.479, \textit{SD}~=~.750), \textit{W}(27)~=~.262, \textit{p}~=~.398, \textit{d}~=~.050.

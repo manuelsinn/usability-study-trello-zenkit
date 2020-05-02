@@ -1,0 +1,74 @@
+\newpage
+\section{Heuristische Evaluation}
+
+\subsection{Methode}
+% Gewählte Methode kurz erläutert;
+Zur Untersuchung der Usability beider Systeme haben wir die analytische Methode der Heuristische Evaluation gewählt, in unserem Fall nach den zehn Heuristiken von \cite{nielsen199510}.
+Dabei hat jedes Gruppenmitglied das User Interface anhand der zehn Heuristiken evaluiert und die Probleme dokumentiert. In der Gruppe wurden anschließend die Probleme zusammengetragen, und sich jeweils auf einen Schweregrad zwischen null und vier geeinigt, wie bei \cite{nielsen1994usability} beschrieben.
+
+% Passung von Methode und Fragestellung verdeutlicht;
+Diese Methode wurde gewählt, um die Anwendung der grundlegenden Prinzipien des Interaktionsdesigns zu untersuchen und zwischen den beiden Konkurrenzsystemen zu vergleichen. Eine Verletzung der Heuristiken stellt ein starkes Indiz für eine geringere Usability dar, und kann somit Antworten zu unserer Fragestellung liefern.
+
+% Bescreibung der Tester/evaluatoren; 
+Die Evaluation wurde von fünf Testern durchgeführt, davon waren alle männlich, Mensch-Computer-Systeme Studenten und im Alter von 20 bis 22 Jahren. Nach einer Untersuchung von \cite{nielsen1995conduct} findet diese Anzahl an Evaluatoren im Durchschnitt 75\% der Probleme, was in Anbetracht des beschränkten Wachstums dieses Zusammenhangs und den Umständen dieser Studie ein für uns annehmbarer Wert ist.
+Um den Einfluss der unterschiedlichen persönlichen Voraussetzungen der Evaluatoren zu verringern, wurde für die Evaluation eine Persona erstellt (siehe Abbildung \ref{fig:persona} im Anhang).
+
+
+
+
+\subsection{Erwartungen}
+% Herleitung von überprüfbaren Erwartungen/Hypothesen, beispielsweise basierend auf Literatur, Feedback im Appstore, Marktverbreitung
+In unserer Erwartung hat uns vor allem die Marktdominanz von Trello gegenüber Zenkit geprägt: Trello gehört zum internationalen Softwareunternehmen Atlassian, zu denen beispielsweise auch Jira gehört, eines der dominantesten Projektmanagementtools weltweit. Zenkit dagegen stammt aus der Hand eines Start-Ups aus Karlsruhe. Das spiegelt sich auch in der Zahl der Nutzer wieder: Trello konnte im Oktober 2019 über 50 Mio registrierte Nutzer verzeichnen (\cite{blogtrello}), Zenkit im Februar 2019 dagegen nur 140 000 (\cite{zenkitinterview}).
+
+Auch in unserer Gruppe hat sich diese Verteilung der Nutzerbasis widergespiegelt: die Mehrheit hatte Trello bereits genutzt, Zenkit dagegen noch keiner.
+Damit war Trello für uns in der Rolle des etablierten Standardtools, und so haben wir für Trello auch eine bessere Usability erwartet.
+
+Somit gingen wir davon aus, dass Trello bei der Heuristischen Evaluation insgesamt weniger Probleme aufweisen würde.
+Außerdem gingen wir davon aus, dass Trello einen geringeren durchschnittlichen Problemgrad aufweisen würde als Zenkit.
+
+
+\subsection{Ergebnisse}
+% Sinnvolle Darstellungsweise für Ergebnisse; Übereinstimmung berechnet und angegeben; gefundene Probleme dokumentiert (Anhang)
+Der Erwartung entsprechend hat Trello eine niedrigere Anzahl Probleme (\textit{n}~=~20) als Zenkit (\textit{n}~=~24). Entgegen der Erwartung ist der durchschnittliche Problemgrad bei Trello jedoch höher (\textit{MW}~=~2.30) als bei Zenkit~(\textit{MW}~=~1.96). Die Verteilung der Probleme auf die Heuristiken ist auf Abbildung \ref{fig:heuristik_probleme} im Anhang zu finden.
+
+Die Übereinstimmung zwischen den Evaluatoren in Prozent beträgt bei Trello \textit{MW}~=~15.67, bei Zenkit \textit{MW}~=~8.06 (Zur Einsicht der Übereinstimmungen zwischen den einzelnen Evaluatoren siehe Abbildung \ref{fig:uebereinstimmungen} im Anhang).
+
+
+Es folgt eine kleine Auswahl an typischen bzw. salienten Problemen die durch die Heuristische Evaluation gefunden wurden (Detaillierte Aufstellung siehe Anhang).\\
+
+\subsubsection{Trello}
+Einige Probleme die bei Trello gefunden wurden lassen sich unter dem Effekt der Verwirrung des Benutzers gruppieren. Das sind unter anderem:
+\begin{APAitemize}
+    \item Nr. 2 (Der Speichern-Button beim Datepicker ist links anstatt wie üblich rechts)
+    \item Nr. 5 (Manche Hintergründe machen die Schrift des Systems unlesbar)
+    \item Nr. 8 (Mitglieder lassen sich von einer Karte nicht wieder entfernen)
+    \item Nr. 18 (Die Startseite wird unterschiedlich benannt)
+    \item Nr. 20 (Verwirrende Rückmeldung beim Löschen eines Boards)\\
+\end{APAitemize}
+
+\subsubsection{Zenkit}
+Eine Kategorie von Problemen, die bei Zenkit herausstach, ist das Nichtauffinden von Bedienelementen. Beispielhaft dafür sind die folgenden Probleme: 
+\begin{APAitemize}
+    \item Nr. 1 (Schweres Finden von Kommentaren)
+    \item Nr. 8 (Der Link auf die Startseite ist etwas versteckt)
+    \item Nr. 16 (Schwieriges Finden der Suchleiste)
+    \item Nr. 23 (Button zum Hinzufügen von Elementen erscheint erst beim Hovern über der Liste)
+    \item Nr. 24 (Buttons sind in Beschreibungen versteckt)
+\end{APAitemize}{} 
+
+
+\subsection{Diskussion der heuristischen Methode}
+%Zusammenfassung der Ergebnisse; kritische Auseinandersetzung unter Berücksichtigung der Erwartungen; Fazit zu Produktvergleich und eingesetzer Methodik
+Die Ergebnisse sind nur zum Teil so ausgefallen wie erwartet. Die geringere Anzahl von gefundenen Problemen bei Trello im Vergleich zu Zenkit spricht für dessen höhere Usability. Der durchschnittlich etwas höhere Problemgrad spricht jedoch dagegen. 
+
+Möglicherweise könnte es hierbei auch zu einer statistischen Konfundierung gekommen sein: Durch den Effekt von Regression zur Mitte fallen Datensätze mit geringerer Anzahl an Datenpunkten häufig extremer aus als solche mit höherer Anzahl (dies muss jedoch aufgrund des geringen Unterschieds von nur vier Problemen ebenfalls kritisch betrachtet werden).
+
+Ein weiterer möglicher Bias geht aus der einseitigen Beschaffenheit der Evaluatoren hervor: alle waren Mensch-Computer-Systeme Studenten im Alter von 20 bis 22 Jahren, und 80\% der Evaluatoren kannten Trello bereits, Zenkit dagegen noch keiner.
+
+Trotz der eher geringen Übereinstimmung zwischen den Evaluatoren gab es einige Konsensaspekte. Generell erschien das User Interface von Zenkit gegenüber Trello innovativer, und zugleich unausgereifter. 
+Das lässt sich z.B. festmachen an den zusätzlichen Funktionen, wie zum Beispiel den verschiedenen Ansichten die Zenkit zusätzlich zum "Kanban"-Standard bietet, wie in Abbildung \ref{fig:views} im Anhang zu sehen.
+
+Ein Indiz für die geringere Ausgereiftheit von Zenkits UI stellt die Verteilung der gefundenen Probleme auf die Heuristiken dar: Bei Zenkit (\textit{n}~=~6) wurden im Vergleich zu Trello (\textit{n}~=~3) doppelt so viele Probleme bei der vierten Heuristik 'Konsistenz und Standards'  gefunden.
+Außerdem tauchten bei Zenkit auch deutlich mehr Probleme bei der siebten Heuristik 'Flexibilität und Effiziente Nutzung' (\textit{n}~=~7) auf als bei Trello (\textit{n}~=~4), wie in Abbildung \ref{fig:heuristik_probleme} im Anhang zu sehen. 
+
+Die geringere Einhaltung von Standards und Konsistenz weckte den Eindruck eines neuen, unerfahrenen Produkts, verstärkt noch durch die vielen schwer aufzufindenden Bedienelemente. Der fehlende Fokus auf Flexibilität und Effizienz ist nach unserer Einschätzung ein Indiz für die frühe Phase, und damit verbundene Unausgereiftheit, da es möglicherweise zu diesem Zeitpunkt noch nicht genug Expertennutzer des Systems gibt, und damit auch keine Ausrichtung auf die Bedürfnisse solcher Nutzer besteht.
